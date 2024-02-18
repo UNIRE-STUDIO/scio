@@ -1,43 +1,85 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-<style>
-  body {
-background: rgb(57,11,88);
-background: radial-gradient(circle, rgba(57,11,88,1) 0%, rgba(0,0,0,1) 100%);
-color: white;
-font-size: 18px;
-}
+    <style>
+        body {
+            background: rgb(57, 11, 88);
+            background: radial-gradient(circle, rgba(57, 11, 88, 1) 0%, rgba(0, 0, 0, 1) 100%);
+            color: white;
+            font-size: 18px;
+        }
 
-a {
-  color: #f9f9f9;
-}
+        a {
+            color: #f9f9f9;
+        }
 
-.title-promo {
-  font-size: 5rem;
-}
+        .title-promo {
+            font-size: 5rem;
+        }
 
 
-/* Glassmorphism card effect */
-.card-promo  {
-    backdrop-filter: blur(9px) saturate(200%);
-    -webkit-backdrop-filter: blur(9px) saturate(200%);
-    background-color: rgba(17, 25, 40, 0.55);
-    border-radius: 100px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: 2rem;
-}
-</style>
+        /* Glassmorphism card effect */
+        .card-promo {
+            backdrop-filter: blur(9px) saturate(200%);
+            -webkit-backdrop-filter: blur(9px) saturate(200%);
+            background-color: rgba(17, 25, 40, 0.55);
+            border: 1px solid rgba(255, 255, 255, 0.125);
+            padding: 2rem;
+        }
 
-<div class="container my-5">
-     <div class="card card-promo pt-5 pb-5">
-  <div class="card-body text-white">
-    <h1 class="card-title title-promo">ПРОЕКТ "ЗНАНИЕ"</h1>
-    <h3 class="card-subtitle">Тут будем делиться тем, что знаем..</h5>
-    <p class="card-text">
-    <br>
-      — Но чем же питается душа, Сократ?
-<br>
-— Знаниями, разумеется, — сказал я. — Только бы, друг мой, не надул нас софист, выхваляя то, что продаёт, как те купцы или разносчики, что торгуют телесною пищей. Потому что и сами они не знают, что в развозимых ими товарах полезно, а что вредно для тела, но расхваливают всё ради продажи, и покупающие у них этого не знают, разве случится кто-нибудь сведущий в гимнастике или врач. Так же и те, что развозят знания по городам и продают их оптом и в розницу всем желающим, хоть они и выхваляют всё, чем торгуют, но, может быть, друг мой, из них некоторые и не знают толком, хорошо ли то, что они продают, или плохо для души; и точно так же не знают и покупающие у них, разве лишь случится кто-нибудь сведущий во врачевании души.</p>
-  </div>
-</div>
-    </div>
+        .card-img-top, .card-promo {
+            border-radius: 50px;
+        }
+
+
+        [data-bs-theme=dark] {
+            --bs-primary: #a8d8ea;
+            --bs-secondary: #aa96da;
+            --bs-success: #bbfcba;
+            --bs-danger: #fcbad3;
+            --bs-warning: #ffffd2;
+            --bs-info: #96a9da;
+            --bs-primary-rgb: 168, 216, 234;
+            --bs-secondary-rgb: 170, 150, 218;
+            --bs-success-rgb: 187, 252, 186;
+            --bs-danger-rgb: 252, 186, 211;
+            --bs-warning-rgb: 255, 255, 210;
+            --bs-info-rgb: 150, 169, 218;
+        }
+    </style>
+
+    <body data-bs-theme="dark">
+
+    <div class="container my-5">
+        <div class="card card-promo pt-5 pb-5">
+            <div class="card-body text-white">
+                <h1 class="card-title title-promo">ПРОЕКТ "ЗНАНИЕ"</h1>
+                <h3 class="card-subtitle">Тут будем делиться тем, что знаем..</h3>
+                <p class="card-text">
+                    <br>
+                    — Но чем же питается душа, Сократ?
+                    <br>
+                    — Знаниями, разумеется, — сказал я. — Только бы, друг мой, не надул нас софист, выхваляя то, что
+                    продаёт, как те купцы или разносчики, что торгуют телесною пищей. Потому что и сами они не знают,
+                    что в развозимых ими товарах полезно, а что вредно для тела, но расхваливают всё ради продажи, и
+                    покупающие у них этого не знают, разве случится кто-нибудь сведущий в гимнастике или врач. Так же и
+                    те, что развозят знания по городам и продают их оптом и в розницу всем желающим, хоть они и
+                    выхваляют всё, чем торгуют, но, может быть, друг мой, из них некоторые и не знают толком, хорошо ли
+                    то, что они продают, или плохо для души; и точно так же не знают и покупающие у них, разве лишь
+                    случится кто-нибудь сведущий во врачевании души.</p>
+            </div>
+        </div>
+
+        <div class="card card-promo mt-5"><div class="card-body"><a style="text-decoration: none;" href="//t.me/scio_unire/26"><h5 class="card-title">ЗНАНИЕ - SCIO | UNIRE</h5></a><p class="card-subtitle" style="text-align: right;position: absolute; right: 3em; top: 3em;">18.02.2024 23:32:41</p><p class="card-text mt-2">А пока материалы готовятся, держите котиков.<br/><br/>#scio</p>	<a href="u/p/AgACAgIAAx0CfS1wwAADGmXSaWk7MRCAeTE2zyuDzHNNi6llAAKE2jEbmMaRSqst5bbUvU_oAQADAgADeQADNAQ.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4 mt-3">
+			<img src="u/p/AgACAgIAAx0CfS1wwAADGmXSaWk7MRCAeTE2zyuDzHNNi6llAAKE2jEbmMaRSqst5bbUvU_oAQADAgADeQADNAQ.jpg" class="img-fluid"  alt="Фото"/>
+		</a></div></div><div class="card card-promo mt-5"><div class="card-body"><a style="text-decoration: none;" href="//t.me/scio_unire/24"><h5 class="card-title">ЗНАНИЕ - SCIO | UNIRE</h5></a><p class="card-subtitle" style="text-align: right;position: absolute; right: 3em; top: 3em;">18.02.2024 23:27:53</p><p class="card-text mt-2">Скоро (это понятие относительное), планируем выпустить видеоролик  "Введение в Веб" (об истории, тенденциях и т.д.).<br/>В данном видеоролике можно будет узнать об истории развития этой технологии. <br/>В дальнейшем, постараемся сформировать видеокурс по основам Веб (если хватит сил). <br/><br/>Что было бы тебе интересно узнать о веб?<br/><br/>#scio</p></div></div><div class="card card-promo mt-5"><div class="card-body"><a style="text-decoration: none;" href="//t.me/scio_unire/23"><h5 class="card-title">ЗНАНИЕ - SCIO | UNIRE</h5></a><p class="card-subtitle" style="text-align: right;position: absolute; right: 3em; top: 3em;">18.02.2024 23:27:40</p><p class="card-text mt-2">Добро пожаловать! Это наш новый проект. Основная его идея — обмен полезными знаниями.<br/><br/>— Что тут будет?<br/>Статьи, видео, анонсы обучающих курсов разработанных нами и многое другое.<br/><br/>— Как я могу влиять на проект?<br/>Только положительно! Под данной записью вы можете разместить свою идею (что обсудить, что разъяснить и т.д.) в рамках нашей деятельности или предложить опубликовать ваш готовый проект (к примеру видеокурс по обучению разработки игры на JS и т.д.)<br/><br/>#scio</p></div></div>    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
+    </body>
+
+
